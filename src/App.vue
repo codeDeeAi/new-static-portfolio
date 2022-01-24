@@ -9,21 +9,21 @@
       <!-- Hero Section -->
       <HeroSection />
       <!-- Hero Section Ends -->
-      <!-- Floating Menu -->
-      <FloatingMenu />
-      <!-- Floating Menu Ends -->
+      <!-- Introduction -->
+      <IntroSection />
+      <!-- Introduction Ends -->
     </div>
   </div>
 </template>
 <script>
 import NavBar from "./components/NavBar.vue";
 import HeroSection from "./components/Header.vue";
-import FloatingMenu from "./components/FloatingMenu.vue";
+import IntroSection from "./components/IntroSection.vue";
 export default {
   components: {
     NavBar,
     HeroSection,
-    FloatingMenu,
+    IntroSection,
   },
   data() {
     return {};

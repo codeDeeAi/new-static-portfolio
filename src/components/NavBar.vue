@@ -193,9 +193,10 @@ export default {
     return {
       open_tray: false,
       navigation_list: [
-        { name: "Services", link: "#!" },
-        { name: "Projects", link: "#!" },
+        { name: "About Me", link: "#about-me" },
         { name: "Experience", link: "#!" },
+        { name: "Tech & Tools", link: "#tech-and-tools" },
+        { name: "Projects", link: "#!" },
       ],
     };
   },
