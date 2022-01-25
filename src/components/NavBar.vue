@@ -19,7 +19,7 @@
         To: "opacity-0"
     -->
       <div
-        class="absolute inset-0 bg-gray-500 bg-opacity-75 transition-opacity"
+        class="absolute inset-0 bg-zinc-500 bg-opacity-75 transition-opacity"
         aria-hidden="true"
       ></div>
       <div class="fixed inset-y-0 right-0 pl-10 max-w-full flex">
@@ -99,6 +99,7 @@
                       v-for="(nav, index) in navigation_list"
                       :key="index"
                       :href="nav.link"
+                      @click="toggle_tray()"
                       class="px-4 py-2 group flex hover:gap-3"
                       role="menuitem"
                       tabindex="-1"
@@ -183,7 +184,11 @@
       </li>
     </ul>
     <span @click="toggle_tray()" class="md:hidden mt-auto"
-      ><button>Toggle</button></span
+      ><button type="button" class="flex hover:gap-2 group">
+        <span class="invisible text-green-400 group-hover:visible">{</span
+        ><a href="#!" class="group-hover:text-green-400">Menu</a
+        ><span class="invisible text-green-400 group-hover:visible">}</span>
+      </button></span
     >
   </nav>
 </template>
