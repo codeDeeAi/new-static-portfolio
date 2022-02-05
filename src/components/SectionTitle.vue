@@ -1,12 +1,13 @@
 <template>
   <div
     :id="sectionID"
-    class="text-center cursor-pointer my-3 text-xl md:text-2xl font-semibold group"
+    class="text-center cursor-pointer my-8 text-2xl md:text-3xl font-semibold group transition-all"
   >
-    <span class="text-green-400">{</span> {{ title }}
-    <span class="text-green-400">}</span>
+    <span class="text-green-400 invisible group-hover:visible group-hover:animate-ping">{</span> 
+    <span class="text-green-400 hover:text-gray-400 px-3">{{ title }}</span>
+    <span class="text-green-400 invisible group-hover:visible group-hover:animate-ping">}</span>
 
-    <div class="w-4/6 group-hover:border group-hover:border-green-400 mx-auto"></div>
+    <!-- <div class="w-4/6 group-hover: group-hover:border-green-400 mx-auto"></div> -->
   </div>
 </template>
 <script>

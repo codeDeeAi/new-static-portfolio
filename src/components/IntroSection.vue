@@ -3,7 +3,7 @@
     <!-- About Me -->
     <section>
       <SectionTitle title="About Me" sectionID="about-me" />
-      <article class="text-center">
+      <article class="text-center md:text-lg leading-6">
         I am a Self Taught Software Developer whose interest in computers has
         led me to pursue a career in software development. I am a fast learner
         from an analytical background, a Tech Savvy with keen interest in
@@ -55,33 +55,33 @@
           class="text-center group"
         >
           <div
-            class="flex items-center justify-center w-16 h-16 mx-auto mb-4 rounded bg-zinc-800 shadow-lg shadow-green-400 cursor-pointer"
+            class="flex items-center justify-center w-16 h-16 mx-auto mb-4 hover:rounded hover:shadow-sm hover:border-green-400 hover:shadow-green-400 cursor-pointer"
           >
             <img
               :src="tool.link"
               :alt="tool.name"
-              class="w-12 h-12 text-deep-purple-accent-400 sm:w-12 sm:h-12 group-hover:animate-pulse"
+              class="w-12 h-12 sm:w-12 sm:h-12 group-hover:animate-pulse"
             />
           </div>
-          <h6 class="mb-2 font-bold leading-5 uppercase">{{ tool.name }}</h6>
+          <h6 class="mb-2 font-bold leading-5 text-gray-400 uppercase">{{ tool.name }}</h6>
         </div>
       </div>
     </section>
     <!-- Tech & Tools Ends -->
 
-    <!-- Experience -->
-    <ExperienceTimeline />
-    <!-- Experience Ends -->
+    <!-- Projects -->
+    <Projects />
+    <!-- Projects Ends -->
   </div>
 </template>
 <script>
 import SkillLine from "./SkillLine.vue";
-import ExperienceTimeline from "./ExperienceTimeline.vue";
+import Projects from "./Projects.vue";
 import SectionTitle from "./SectionTitle.vue";
 export default {
   components: {
     SkillLine,
-    ExperienceTimeline,
+    Projects,
     SectionTitle,
   },
   data() {

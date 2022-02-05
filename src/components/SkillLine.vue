@@ -1,5 +1,5 @@
 <template>
-  <li class="flex items-start">
+  <li class="flex items-start md:text-lg leading-6">
     <span class="mr-1">
       <svg
         class="w-5 h-5 mt-px text-deep-purple-accent-400"

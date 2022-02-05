@@ -153,7 +153,7 @@
     </ul>
     <ul class="list-none hidden md:flex gap-3 text-sm mt-auto">
       <li>
-        <a href="#!" class="hover:text-green-400">
+        <a href="https://github.com/codeDeeAi" target="_blank" class="hover:text-green-400">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -168,7 +168,7 @@
         ></a>
       </li>
       <li>
-        <a href="#!" class="hover:text-green-400"
+        <a href="https://www.linkedin.com/in/adeola-bada-aiism-a51174124" target="_blank" class="hover:text-green-400"
           ><svg
             width="20"
             height="20"
@@ -199,9 +199,8 @@ export default {
       open_tray: false,
       navigation_list: [
         { name: "About Me", link: "#about-me" },
-        { name: "Experience", link: "#!" },
         { name: "Tech & Tools", link: "#tech-and-tools" },
-        { name: "Projects", link: "#!" },
+        { name: "Projects", link: "#projects" },
       ],
     };
   },
