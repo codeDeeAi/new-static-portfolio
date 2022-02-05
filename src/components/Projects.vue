@@ -41,7 +41,7 @@
               class="px-2 py-1 flex items-center rounded border border-green-400 text-sm"
             >
               <img
-                src="public/svg/internet-explorer-logo-svgrepo-com.svg"
+                src="/svg/internet-explorer-logo-svgrepo-com.svg"
                 class="h-5 w-5"
                 alt=""
               />
