@@ -19,7 +19,7 @@
               >{{ project.title }}</a
             >
           </div>
-          <p class="mb-5 h-36 md:h-24">
+          <p class="mb-5 h-36 md:h-24 overflow-y-auto">
             {{ project.details }}
           </p>
           <div class="flex justify-end gap-3">
