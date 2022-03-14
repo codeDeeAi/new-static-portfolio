@@ -81,8 +81,8 @@
                 id="slide-over-title"
               >
                 <span class="text-lg lg:text-2xl group"
-                  ><a href="/" class="text-green-400 flex gap-4"
-                    ><span class="visible">const name = {</span
+                  ><a href="/" class="text-green-400 flex gap-2"
+                    ><span class="visible">let name = {</span
                     ><span class="text-gray-200"
                       ><span class="font-semibold">Bada</span> Adeola</span
                     ><span class="visible">};</span></a

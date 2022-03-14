@@ -55,7 +55,7 @@
           class="text-center group"
         >
           <div
-            class="flex items-center justify-center w-16 h-16 mx-auto mb-4 hover:rounded hover:shadow-sm hover:border-green-400 hover:shadow-green-400 cursor-pointer"
+            class="flex items-center justify-center w-16 h-16 mx-auto mb-4 cursor-pointer"
           >
             <img
               :src="tool.link"
